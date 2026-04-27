@@ -1,0 +1,31 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; background: #f4f6f9; color: #333; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px 16px; }
+nav { background: #1a4a72; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; }
+nav .brand { color: #fff; font-size: 1.3rem; font-weight: 700; text-decoration: none; }
+nav a { color: #cce0f5; text-decoration: none; margin-left: 20px; font-size: 0.95rem; }
+nav a:hover { color: #fff; }
+h1 { font-size: 1.6rem; margin-bottom: 20px; color: #1a4a72; }
+.btn { padding: 9px 18px; border: none; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+.btn-primary { background: #1a4a72; color: #fff; }
+.btn-primary:hover { background: #2c5f8a; }
+.btn-danger { background: #e74c3c; color: #fff; }
+.btn-danger:hover { background: #c0392b; }
+.btn-secondary { background: #6c757d; color: #fff; }
+.products-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+.product-card { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.product-card h2 { font-size: 1.1rem; margin-bottom: 8px; color: #1a4a72; }
+.product-card p { font-size: 0.9rem; color: #555; margin-bottom: 6px; }
+.product-card .price { font-size: 1rem; font-weight: 700; color: #27ae60; }
+.product-card .actions { margin-top: 14px; display: flex; gap: 10px; }
+.form-group { margin-bottom: 16px; }
+.form-group label { display: block; margin-bottom: 6px; font-weight: 600; font-size: 0.9rem; color: #444; }
+.form-group input, .form-group textarea, .form-group select {
+  width: 100%; padding: 10px 12px; border: 1px solid #ccc;
+  border-radius: 6px; font-size: 0.95rem;
+}
+.form-group textarea { resize: vertical; height: 90px; }
+.form-card { background: #fff; padding: 28px; border-radius: 10px; max-width: 520px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.78rem; font-weight: 600; }
+.badge-category { background: #e8f0fe; color: #1a4a72; }
+/* TODO (Task 02): You may add styles for the rating display here */
