@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // TODO: Update this URL to your deployed backend URL before final submission
-const API_URL = 'http://localhost:5003/api/products';
+const API_URL = 'https://product-manager-jf4p.onrender.com/api/products';
 
 export const getProducts = () => axios.get(API_URL);
 export const getProduct = (id) => axios.get(`${API_URL}/${id}`);
